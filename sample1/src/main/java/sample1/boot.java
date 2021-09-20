@@ -7,12 +7,12 @@ show();
 }
 	
 	public static void show() {
-		int[] arr= {1,2,3,4,5};
+		int[] arr= {12,34,56,56};
 		int sum=0;
 		for(int n:arr)
 		{  sum+=n;
 			System.out.println(n);
 		}
-		System.out.println("hello 2");
+		System.out.println("show method added");
 	}
 }
